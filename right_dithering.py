@@ -24,4 +24,4 @@ def right_dithering(input_path: str, output_path: str):
     result_img.save(output_path)
     print(f"保存完了: {output_path}")
 
-right_dithering("./img.png", "2.png")
+right_dithering("./img/img.png", "./img/2.png")
