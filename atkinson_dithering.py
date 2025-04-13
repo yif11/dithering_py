@@ -34,4 +34,4 @@ def atkinson_dithering(input_path: str, output_path: str):
     result_img.save(output_path)
     print(f"保存完了: {output_path}")
 
-atkinson_dithering("./img/img.png", "./img/1.png")
+atkinson_dithering("./img/orig.png", "./img/ad.png")
