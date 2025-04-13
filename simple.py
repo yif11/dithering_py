@@ -19,4 +19,4 @@ def floyd_steinberg_dithering(input_path: str, output_path: str):
     result_img.save(output_path)
     print(f"保存完了: {output_path}")
 
-floyd_steinberg_dithering("./img/img.png", "./img/simple.png")
+floyd_steinberg_dithering("./img/orig.png", "./img/simple.png")
